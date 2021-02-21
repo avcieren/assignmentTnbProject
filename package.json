@@ -7,7 +7,7 @@
     "start": "(webpack --watch --config webpack.dev.config.js) | webpack-dev-server --progress --config webpack.dev.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "avcieren",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.6.12",
