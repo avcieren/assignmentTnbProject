@@ -26,7 +26,7 @@ const mutations = {
   },
 
   [t.NAVIGATION_UPDATE_PAGE] (state, payload) {
-    console.log('semih NAVIGATION_UPDATE_PAGE');
+    console.log('NAVIGATION_UPDATE_PAGE');
     state.currentPage = payload;
   }
 }
