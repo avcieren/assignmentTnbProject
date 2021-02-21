@@ -170,7 +170,7 @@ export default {
       this.sending = true;
 
       // Dummy timeout to replicate server delay.
-      window.setTimeout(() => {
+      setTimeout(() => {
         this.messageSent = true;
         this.sending = false;
         this.$store.dispatch('sendContactUsFormDetails', this.contactUs);

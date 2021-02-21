@@ -1,6 +1,5 @@
 const path = require('path'),
     webpack = require('webpack'),
-    // VueLoaderPlugin = require('vue-loader/lib/plugin'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -88,6 +87,5 @@ module.exports = {
             template: 'dist/template/template.html'
         })
 
-        // new VueLoaderPlugin()
     ]
 }
